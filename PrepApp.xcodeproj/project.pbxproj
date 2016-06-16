@@ -8,22 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		F637032F1D11E915001A6250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637032E1D11E915001A6250 /* AppDelegate.swift */; };
-		F63703311D11E915001A6250 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703301D11E915001A6250 /* FirstViewController.swift */; };
-		F63703331D11E915001A6250 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703321D11E915001A6250 /* SecondViewController.swift */; };
+		F63703311D11E915001A6250 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703301D11E915001A6250 /* HomeViewController.swift */; };
 		F63703361D11E915001A6250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63703341D11E915001A6250 /* Main.storyboard */; };
 		F63703381D11E915001A6250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63703371D11E915001A6250 /* Assets.xcassets */; };
 		F637033B1D11E915001A6250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63703391D11E915001A6250 /* LaunchScreen.storyboard */; };
+		F63703471D11F4E0001A6250 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703461D11F4E0001A6250 /* TrainingViewController.swift */; };
+		F637034A1D11F50E001A6250 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703491D11F50E001A6250 /* ChallengeViewController.swift */; };
+		F637034C1D11F518001A6250 /* DuoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637034B1D11F518001A6250 /* DuoViewController.swift */; };
+		F637034F1D11FC09001A6250 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F637034D1D11FC09001A6250 /* Realm.framework */; };
+		F63703501D11FC09001A6250 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F637034D1D11FC09001A6250 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F63703511D11FC09001A6250 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F637034E1D11FC09001A6250 /* RealmSwift.framework */; };
+		F63703521D11FC09001A6250 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F637034E1D11FC09001A6250 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F63703581D11FCE0001A6250 /* PlusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703571D11FCE0001A6250 /* PlusTableViewController.swift */; };
+		F637035F1D1220D0001A6250 /* timer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F637035D1D1220D0001A6250 /* timer.ttf */; };
+		F63703601D1220D0001A6250 /* segoe.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F637035E1D1220D0001A6250 /* segoe.ttf */; };
+		F63703631D1220FB001A6250 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703621D1220FB001A6250 /* Colors.swift */; };
+		F63703651D12235E001A6250 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703641D12235E001A6250 /* TabBarViewController.swift */; };
+		F63703671D122396001A6250 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703661D122396001A6250 /* Extensions.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F63703531D11FC09001A6250 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F63703521D11FC09001A6250 /* RealmSwift.framework in Embed Frameworks */,
+				F63703501D11FC09001A6250 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F637032B1D11E914001A6250 /* PrepApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F637032E1D11E915001A6250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F63703301D11E915001A6250 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F63703321D11E915001A6250 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F63703301D11E915001A6250 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F63703351D11E915001A6250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F63703371D11E915001A6250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F637033A1D11E915001A6250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F637033C1D11E915001A6250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63703461D11F4E0001A6250 /* TrainingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		F63703491D11F50E001A6250 /* ChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		F637034B1D11F518001A6250 /* DuoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuoViewController.swift; sourceTree = "<group>"; };
+		F637034D1D11FC09001A6250 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		F637034E1D11FC09001A6250 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		F63703571D11FCE0001A6250 /* PlusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusTableViewController.swift; sourceTree = "<group>"; };
+		F637035D1D1220D0001A6250 /* timer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = timer.ttf; sourceTree = "<group>"; };
+		F637035E1D1220D0001A6250 /* segoe.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = segoe.ttf; sourceTree = "<group>"; };
+		F63703621D1220FB001A6250 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F63703641D12235E001A6250 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F63703661D122396001A6250 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63703511D11FC09001A6250 /* RealmSwift.framework in Frameworks */,
+				F637034F1D11FC09001A6250 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +79,7 @@
 		F63703221D11E914001A6250 = {
 			isa = PBXGroup;
 			children = (
+				F63703541D11FC29001A6250 /* Frameworks */,
 				F637032D1D11E914001A6250 /* PrepApp */,
 				F637032C1D11E914001A6250 /* Products */,
 			);
@@ -56,15 +96,72 @@
 		F637032D1D11E914001A6250 /* PrepApp */ = {
 			isa = PBXGroup;
 			children = (
+				F637035B1D1220AA001A6250 /* Model */,
+				F63703451D11EAD6001A6250 /* Supporting files */,
+				F63703481D11F4EB001A6250 /* Controllers */,
+				F637035A1D1220A2001A6250 /* View */,
+			);
+			path = PrepApp;
+			sourceTree = "<group>";
+		};
+		F63703451D11EAD6001A6250 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
 				F637032E1D11E915001A6250 /* AppDelegate.swift */,
-				F63703301D11E915001A6250 /* FirstViewController.swift */,
-				F63703321D11E915001A6250 /* SecondViewController.swift */,
-				F63703341D11E915001A6250 /* Main.storyboard */,
-				F63703371D11E915001A6250 /* Assets.xcassets */,
 				F63703391D11E915001A6250 /* LaunchScreen.storyboard */,
 				F637033C1D11E915001A6250 /* Info.plist */,
 			);
-			path = PrepApp;
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		F63703481D11F4EB001A6250 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F63703301D11E915001A6250 /* HomeViewController.swift */,
+				F63703461D11F4E0001A6250 /* TrainingViewController.swift */,
+				F63703491D11F50E001A6250 /* ChallengeViewController.swift */,
+				F637034B1D11F518001A6250 /* DuoViewController.swift */,
+				F63703571D11FCE0001A6250 /* PlusTableViewController.swift */,
+				F63703641D12235E001A6250 /* TabBarViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F63703541D11FC29001A6250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F637034D1D11FC09001A6250 /* Realm.framework */,
+				F637034E1D11FC09001A6250 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F637035A1D1220A2001A6250 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F63703621D1220FB001A6250 /* Colors.swift */,
+				F63703611D1220D5001A6250 /* Fonts */,
+				F63703371D11E915001A6250 /* Assets.xcassets */,
+				F63703341D11E915001A6250 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F637035B1D1220AA001A6250 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F63703661D122396001A6250 /* Extensions.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F63703611D1220D5001A6250 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F637035D1D1220D0001A6250 /* timer.ttf */,
+				F637035E1D1220D0001A6250 /* segoe.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +174,9 @@
 				F63703271D11E914001A6250 /* Sources */,
 				F63703281D11E914001A6250 /* Frameworks */,
 				F63703291D11E914001A6250 /* Resources */,
+				F63703441D11E9D8001A6250 /* ShellScript */,
+				F63703531D11FC09001A6250 /* Embed Frameworks */,
+				F63703431D11E9CB001A6250 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -99,6 +199,7 @@
 				TargetAttributes = {
 					F637032A1D11E914001A6250 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 892UA9NFQD;
 					};
 				};
 			};
@@ -127,20 +228,57 @@
 			files = (
 				F637033B1D11E915001A6250 /* LaunchScreen.storyboard in Resources */,
 				F63703381D11E915001A6250 /* Assets.xcassets in Resources */,
+				F637035F1D1220D0001A6250 /* timer.ttf in Resources */,
+				F63703601D1220D0001A6250 /* segoe.ttf in Resources */,
 				F63703361D11E915001A6250 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F63703431D11E9CB001A6250 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+		F63703441D11E9D8001A6250 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Auto Increment Version Script\nbuildPlist=${INFOPLIST_FILE}\nCFBundleVersion=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" $buildPlist)\nCFBundleVersion=$(($CFBundleVersion + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $CFBundleVersion\" $buildPlist";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F63703271D11E914001A6250 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63703331D11E915001A6250 /* SecondViewController.swift in Sources */,
+				F63703651D12235E001A6250 /* TabBarViewController.swift in Sources */,
+				F63703671D122396001A6250 /* Extensions.swift in Sources */,
+				F637034C1D11F518001A6250 /* DuoViewController.swift in Sources */,
+				F63703581D11FCE0001A6250 /* PlusTableViewController.swift in Sources */,
+				F63703471D11F4E0001A6250 /* TrainingViewController.swift in Sources */,
+				F63703631D1220FB001A6250 /* Colors.swift in Sources */,
 				F637032F1D11E915001A6250 /* AppDelegate.swift in Sources */,
-				F63703311D11E915001A6250 /* FirstViewController.swift in Sources */,
+				F637034A1D11F50E001A6250 /* ChallengeViewController.swift in Sources */,
+				F63703311D11E915001A6250 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -242,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -253,7 +391,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PrepApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PrepApp.PrepApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -264,7 +408,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PrepApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PrepApp.PrepApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,6 +440,7 @@
 				F63703411D11E915001A6250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
