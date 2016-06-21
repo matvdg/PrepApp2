@@ -17,7 +17,7 @@ class TrainingTableViewController: UITableViewController {
         Section(name: "Physique", image: UIImage(named: "phy")!) ]
     
     override func viewDidLoad() {
-        self.title = "Matières"
+        self.title = "Entraînement"
         super.viewDidLoad()
         self.view.tintColor = Colors.prepapp
     }
