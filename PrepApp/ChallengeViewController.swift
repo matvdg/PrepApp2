@@ -13,6 +13,7 @@ class ChallengeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.tintColor = Colors.prepapp
+        self.title = "Défi"
     }
 
 }

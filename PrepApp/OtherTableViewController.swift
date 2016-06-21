@@ -21,8 +21,8 @@ class OtherTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Autre"
         self.view.tintColor = Colors.prepapp
-        self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 0.0, 0.0);
     }
 
     // MARK: - Table view data source

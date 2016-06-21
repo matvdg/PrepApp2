@@ -20,7 +20,7 @@
                                 <rect key="frame" x="251.5" y="279" width="96.5" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -31,11 +31,11 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Accueil" image="home" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" id="rBa-Ta-1kP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="1562" y="-320"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -48,11 +48,11 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="1t9-pa-oIE" kind="relationship" relationship="viewControllers" id="hdg-av-n6i"/>
-                        <segue destination="RST-bq-0UB" kind="relationship" relationship="viewControllers" id="8GF-MM-6wj"/>
-                        <segue destination="bDh-Hg-LsF" kind="relationship" relationship="viewControllers" id="jbR-7F-g8V"/>
-                        <segue destination="n2F-M7-IIy" kind="relationship" relationship="viewControllers" id="Z3g-fy-cPP"/>
+                        <segue destination="UaQ-rU-rvz" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="bHZ-KV-xud" kind="relationship" relationship="viewControllers" id="hdg-av-n6i"/>
+                        <segue destination="i73-lh-My8" kind="relationship" relationship="viewControllers" id="8GF-MM-6wj"/>
+                        <segue destination="W2c-Z3-Cnx" kind="relationship" relationship="viewControllers" id="jbR-7F-g8V"/>
+                        <segue destination="HNj-Dk-pjS" kind="relationship" relationship="viewControllers" id="Z3g-fy-cPP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -75,7 +75,7 @@
                                 <rect key="frame" x="218.5" y="279" width="163" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -86,11 +86,11 @@
                             <constraint firstAttribute="centerY" secondItem="nTT-sC-sRB" secondAttribute="centerY" id="T8W-1P-ZTS"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Défi" image="challenge" id="tU9-Jh-TWh"/>
+                    <navigationItem key="navigationItem" id="vrU-Ub-574"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ysm-rN-OBA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="1094"/>
+            <point key="canvasLocation" x="1562" y="1070"/>
         </scene>
         <!--OtherVC-->
         <scene sceneID="rh9-7g-TiW">
@@ -103,7 +103,7 @@
                         <color key="tintColor" red="0.086274512110000007" green="0.62745100259999997" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="Y8o-3C-IMM" imageView="VXj-dP-bKc" style="IBUITableViewCellStyleDefault" id="DMN-LS-bQn">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DMN-LS-bQn" id="6xk-qT-nZc">
                                     <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
@@ -113,7 +113,7 @@
                                             <rect key="frame" x="60" y="0.0" width="505" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="settings" id="VXj-dP-bKc">
@@ -129,11 +129,11 @@
                             <outlet property="delegate" destination="n2F-M7-IIy" id="ybT-lV-yNy"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Autre" image="other" id="d0j-9f-phO"/>
+                    <navigationItem key="navigationItem" id="0rW-Db-WBT"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LJ6-eI-1Nq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="2442"/>
+            <point key="canvasLocation" x="1562" y="2442"/>
         </scene>
         <!--TrainingVC-->
         <scene sceneID="E4Y-wk-PRA">
@@ -146,20 +146,20 @@
                         <color key="tintColor" red="0.086274512110000007" green="0.62745100259999997" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="n2Y-4F-XPU" imageView="wMv-Sv-hXD" style="IBUITableViewCellStyleDefault" id="YWR-Sl-HHl">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YWR-Sl-HHl" id="g40-fC-VYA">
                                     <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n2Y-4F-XPU">
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Maths" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n2Y-4F-XPU">
                                             <rect key="frame" x="60" y="0.0" width="505" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="settings" id="wMv-Sv-hXD">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="maths" id="wMv-Sv-hXD">
                                             <rect key="frame" x="15" y="6" width="30" height="30"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
@@ -172,11 +172,11 @@
                             <outlet property="delegate" destination="1t9-pa-oIE" id="tIT-dh-KIc"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Entraînement" image="training" id="LVq-Wa-HSF"/>
+                    <navigationItem key="navigationItem" id="45F-mj-lL3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wTN-Qz-5fb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="372"/>
+            <point key="canvasLocation" x="1562" y="372"/>
         </scene>
         <!--DuoVC-->
         <scene sceneID="12w-hD-762">
@@ -189,20 +189,20 @@
                         <color key="tintColor" red="0.086274512110000007" green="0.62745100259999997" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="YpJ-u2-fEL" imageView="oVl-gU-SLl" style="IBUITableViewCellStyleDefault" id="S6y-le-QvI">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S6y-le-QvI" id="KSl-ba-r7n">
                                     <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YpJ-u2-fEL">
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Shuffle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YpJ-u2-fEL">
                                             <rect key="frame" x="60" y="0.0" width="505" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="settings" id="oVl-gU-SLl">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="shuffle" id="oVl-gU-SLl">
                                             <rect key="frame" x="15" y="6" width="30" height="30"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
@@ -215,19 +215,116 @@
                             <outlet property="delegate" destination="bDh-Hg-LsF" id="vCR-2V-P6U"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Duo" image="duo" id="0fE-5n-pF7"/>
+                    <navigationItem key="navigationItem" id="FU9-39-w4H"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cjP-ev-GTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1562" y="1744"/>
+        </scene>
+        <!--Entraînement-->
+        <scene sceneID="e0i-Xd-qLj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bHZ-KV-xud" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Entraînement" image="training" id="LVq-Wa-HSF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vuF-tz-nyb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1t9-pa-oIE" kind="relationship" relationship="rootViewController" id="Aoq-Nw-shU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VDr-je-aiS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="372"/>
+        </scene>
+        <!--Autre-->
+        <scene sceneID="iXE-aT-Yfb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HNj-Dk-pjS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Autre" image="other" id="d0j-9f-phO"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CFq-D6-VdX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="n2F-M7-IIy" kind="relationship" relationship="rootViewController" id="H0K-TF-5S0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yql-to-19S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="2442"/>
+        </scene>
+        <!--Duo-->
+        <scene sceneID="qjx-nc-s2R">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W2c-Z3-Cnx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Duo" image="duo" id="0fE-5n-pF7"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zhu-Sx-amy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bDh-Hg-LsF" kind="relationship" relationship="rootViewController" id="xcj-4K-rm0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GVd-vz-1RQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="750" y="1744"/>
+        </scene>
+        <!--Défi-->
+        <scene sceneID="ovc-88-6za">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="i73-lh-My8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Défi" image="challenge" id="tU9-Jh-TWh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DbD-F1-4Pd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RST-bq-0UB" kind="relationship" relationship="rootViewController" id="Nz5-jU-ovG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pdg-oE-0GU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="756" y="1070"/>
+        </scene>
+        <!--Accueil-->
+        <scene sceneID="UXY-dR-Ug4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UaQ-rU-rvz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Accueil" image="home" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BqF-gd-G9Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="0aF-kn-lUr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1OF-Jj-dqA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
         </scene>
     </scenes>
     <resources>
         <image name="challenge" width="30" height="30"/>
         <image name="duo" width="30" height="30"/>
         <image name="home" width="30" height="30"/>
+        <image name="maths" width="30" height="30"/>
         <image name="other" width="30" height="30"/>
         <image name="settings" width="30" height="30"/>
+        <image name="shuffle" width="30" height="30"/>
         <image name="training" width="30" height="30"/>
     </resources>
 </document>

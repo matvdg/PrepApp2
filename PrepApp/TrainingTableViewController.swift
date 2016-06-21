@@ -17,9 +17,9 @@ class TrainingTableViewController: UITableViewController {
         Section(name: "Physique", image: UIImage(named: "phy")!) ]
     
     override func viewDidLoad() {
+        self.title = "Matières"
         super.viewDidLoad()
         self.view.tintColor = Colors.prepapp
-        self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 0.0, 0.0);
     }
     
     // MARK: - Table view data source

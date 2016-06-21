@@ -18,8 +18,8 @@ class DuoTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Duo"
         self.view.tintColor = Colors.prepapp
-        self.tableView.contentInset = UIEdgeInsetsMake(20.0, 0.0, 0.0, 0.0);
     }
     
     // MARK: - Table view data source
