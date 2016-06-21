@@ -12,19 +12,20 @@
 		F63703361D11E915001A6250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63703341D11E915001A6250 /* Main.storyboard */; };
 		F63703381D11E915001A6250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63703371D11E915001A6250 /* Assets.xcassets */; };
 		F637033B1D11E915001A6250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63703391D11E915001A6250 /* LaunchScreen.storyboard */; };
-		F63703471D11F4E0001A6250 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703461D11F4E0001A6250 /* TrainingViewController.swift */; };
+		F63703471D11F4E0001A6250 /* TrainingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703461D11F4E0001A6250 /* TrainingTableViewController.swift */; };
 		F637034A1D11F50E001A6250 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703491D11F50E001A6250 /* ChallengeViewController.swift */; };
-		F637034C1D11F518001A6250 /* DuoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637034B1D11F518001A6250 /* DuoViewController.swift */; };
+		F637034C1D11F518001A6250 /* DuoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637034B1D11F518001A6250 /* DuoTableViewController.swift */; };
 		F637034F1D11FC09001A6250 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F637034D1D11FC09001A6250 /* Realm.framework */; };
 		F63703501D11FC09001A6250 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F637034D1D11FC09001A6250 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F63703511D11FC09001A6250 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F637034E1D11FC09001A6250 /* RealmSwift.framework */; };
 		F63703521D11FC09001A6250 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F637034E1D11FC09001A6250 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F63703581D11FCE0001A6250 /* PlusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703571D11FCE0001A6250 /* PlusTableViewController.swift */; };
+		F63703581D11FCE0001A6250 /* OtherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703571D11FCE0001A6250 /* OtherTableViewController.swift */; };
 		F637035F1D1220D0001A6250 /* timer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F637035D1D1220D0001A6250 /* timer.ttf */; };
 		F63703601D1220D0001A6250 /* segoe.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F637035E1D1220D0001A6250 /* segoe.ttf */; };
 		F63703631D1220FB001A6250 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703621D1220FB001A6250 /* Colors.swift */; };
 		F63703651D12235E001A6250 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703641D12235E001A6250 /* TabBarViewController.swift */; };
 		F63703671D122396001A6250 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63703661D122396001A6250 /* Extensions.swift */; };
+		F6AF2AD91D18C51800192E3C /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF2AD81D18C51800192E3C /* Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,17 +51,18 @@
 		F63703371D11E915001A6250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F637033A1D11E915001A6250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F637033C1D11E915001A6250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F63703461D11F4E0001A6250 /* TrainingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		F63703461D11F4E0001A6250 /* TrainingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingTableViewController.swift; sourceTree = "<group>"; };
 		F63703491D11F50E001A6250 /* ChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
-		F637034B1D11F518001A6250 /* DuoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuoViewController.swift; sourceTree = "<group>"; };
+		F637034B1D11F518001A6250 /* DuoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuoTableViewController.swift; sourceTree = "<group>"; };
 		F637034D1D11FC09001A6250 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		F637034E1D11FC09001A6250 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
-		F63703571D11FCE0001A6250 /* PlusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusTableViewController.swift; sourceTree = "<group>"; };
+		F63703571D11FCE0001A6250 /* OtherTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherTableViewController.swift; sourceTree = "<group>"; };
 		F637035D1D1220D0001A6250 /* timer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = timer.ttf; sourceTree = "<group>"; };
 		F637035E1D1220D0001A6250 /* segoe.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = segoe.ttf; sourceTree = "<group>"; };
 		F63703621D1220FB001A6250 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		F63703641D12235E001A6250 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		F63703661D122396001A6250 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F6AF2AD81D18C51800192E3C /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,11 +120,12 @@
 			isa = PBXGroup;
 			children = (
 				F63703301D11E915001A6250 /* HomeViewController.swift */,
-				F63703461D11F4E0001A6250 /* TrainingViewController.swift */,
+				F63703461D11F4E0001A6250 /* TrainingTableViewController.swift */,
 				F63703491D11F50E001A6250 /* ChallengeViewController.swift */,
-				F637034B1D11F518001A6250 /* DuoViewController.swift */,
-				F63703571D11FCE0001A6250 /* PlusTableViewController.swift */,
+				F637034B1D11F518001A6250 /* DuoTableViewController.swift */,
+				F63703571D11FCE0001A6250 /* OtherTableViewController.swift */,
 				F63703641D12235E001A6250 /* TabBarViewController.swift */,
+				F6AF2AD81D18C51800192E3C /* Section.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -272,9 +275,10 @@
 			files = (
 				F63703651D12235E001A6250 /* TabBarViewController.swift in Sources */,
 				F63703671D122396001A6250 /* Extensions.swift in Sources */,
-				F637034C1D11F518001A6250 /* DuoViewController.swift in Sources */,
-				F63703581D11FCE0001A6250 /* PlusTableViewController.swift in Sources */,
-				F63703471D11F4E0001A6250 /* TrainingViewController.swift in Sources */,
+				F637034C1D11F518001A6250 /* DuoTableViewController.swift in Sources */,
+				F63703581D11FCE0001A6250 /* OtherTableViewController.swift in Sources */,
+				F63703471D11F4E0001A6250 /* TrainingTableViewController.swift in Sources */,
+				F6AF2AD91D18C51800192E3C /* Section.swift in Sources */,
 				F63703631D1220FB001A6250 /* Colors.swift in Sources */,
 				F637032F1D11E915001A6250 /* AppDelegate.swift in Sources */,
 				F637034A1D11F50E001A6250 /* ChallengeViewController.swift in Sources */,
