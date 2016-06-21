@@ -182,7 +182,7 @@
                             <outlet property="delegate" destination="n2F-M7-IIy" id="din-jc-Nxr"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Plus" image="plus" id="d0j-9f-phO"/>
+                    <tabBarItem key="tabBarItem" title="Autre" image="other" id="d0j-9f-phO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LJ6-eI-1Nq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -193,7 +193,7 @@
         <image name="challenge" width="30" height="30"/>
         <image name="duo" width="30" height="30"/>
         <image name="home" width="30" height="30"/>
-        <image name="plus" width="30" height="30"/>
+        <image name="other" width="30" height="30"/>
         <image name="training" width="30" height="30"/>
     </resources>
 </document>
